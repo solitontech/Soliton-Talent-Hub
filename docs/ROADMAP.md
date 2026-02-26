@@ -32,8 +32,8 @@
 - [x] **0.4** Install TanStack Query + TanStack Store *(react-query, @tanstack/store, react-store)*
 - [x] **0.5** Set up Prisma with PostgreSQL *(Prisma v7.4.1 with @prisma/adapter-pg)*
 - [x] **0.6** Define complete Prisma schema (all models from architecture doc) *(11 models, 5 enums)*
-- [ ] **0.7** Run initial migration
-- [ ] **0.8** Set up NextAuth.js v5 for admin authentication
+- [x] **0.7** Run initial migration *(migration `20260226174743_init` applied — 11 tables created)*
+- [x] **0.8** Set up NextAuth.js v5 for admin authentication *(Credentials provider, JWT strategy, session provider)*
 - [x] **0.9** Create Prisma client singleton (`lib/db.ts`) *(with driver adapter + globalThis singleton)*
 - [ ] **0.10** Set up Vitest + React Testing Library
 - [ ] **0.11** Set up Playwright for E2E
