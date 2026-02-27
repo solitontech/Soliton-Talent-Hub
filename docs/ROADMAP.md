@@ -37,7 +37,7 @@
 - [x] **0.9** Create Prisma client singleton (`lib/db.ts`) *(with driver adapter + globalThis singleton)*
 - [ ] **0.10** Set up Vitest + React Testing Library
 - [ ] **0.11** Set up Playwright for E2E
-- [ ] **0.12** Create base layout components (admin sidebar, candidate layout)
+- [x] **0.12** Create base layout components (admin sidebar, candidate layout) *(sidebar nav, admin + candidate route group layouts, placeholder pages)*
 - [x] **0.13** Create seed script for development data *(admin + 3 questions with test cases, idempotent)*
 - [x] **0.14** Configure environment variables (`.env.example`) *(includes Judge0 config)*
 
