@@ -35,8 +35,8 @@
 - [x] **0.7** Run initial migration *(migration `20260226174743_init` applied — 11 tables created)*
 - [x] **0.8** Set up NextAuth.js v5 for admin authentication *(Credentials provider, JWT strategy, session provider)*
 - [x] **0.9** Create Prisma client singleton (`lib/db.ts`) *(with driver adapter + globalThis singleton)*
-- [ ] **0.10** Set up Vitest + React Testing Library
-- [ ] **0.11** Set up Playwright for E2E
+- [x] **0.10** Set up Vitest + React Testing Library *(vitest 4.x, jsdom, jest-dom matchers, smoke test passing)*
+- [x] **0.11** Set up Playwright for E2E *(chromium, auto dev-server, 3 smoke tests passing)*
 - [x] **0.12** Create base layout components (admin sidebar, candidate layout) *(sidebar nav, admin + candidate route group layouts, placeholder pages)*
 - [x] **0.13** Create seed script for development data *(admin + 3 questions with test cases, idempotent)*
 - [x] **0.14** Configure environment variables (`.env.example`) *(includes Judge0 config)*
@@ -355,14 +355,6 @@
 - UI is polished and responsive
 - Documentation is complete
 - App is deployable
-
----
-
-## Current Progress
-
-| Task | Status | Notes |
-|---|---|---|
-| Phase 0 — Project Setup | ⬜ Not Started | — |
 
 ---
 
