@@ -10,8 +10,8 @@
 
 | Phase | Name | Description | Status |
 |---|---|---|---|
-| **0** | Project Setup | Next.js scaffold, DB, auth, UI foundation | ⬜ Not Started |
-| **1** | Admin Core | Admin auth, admin management, question bank CRUD | ⬜ Not Started |
+| **0** | Project Setup | Next.js scaffold, DB, auth, UI foundation | ✅ Done |
+| **1** | Admin Core | Admin auth, admin management, question bank CRUD | 🔧 In Progress |
 | **2** | Test Management | Test composition, invitation system, email delivery | ⬜ Not Started |
 | **3** | Code Execution Engine | Self-hosted Judge0 setup + integration, test case evaluation | ⬜ Not Started |
 | **4** | Candidate Experience | Landing page, test session, code editor, proctoring | ⬜ Not Started |
@@ -63,7 +63,7 @@
 
 ### Tasks
 
-- [ ] **1.1** Admin login page (`/admin/login`)
+- [x] **1.1** Admin login page (`/admin/login`) *(Zod-validated form, show/hide password, loading state, NextAuth signIn, server-side auth guard in admin layout)*
 - [ ] **1.2** Admin dashboard page (`/admin/dashboard`) — stats overview
 - [ ] **1.3** Admin management page (`/admin/settings`)
   - [ ] 1.3.1 List all admins
