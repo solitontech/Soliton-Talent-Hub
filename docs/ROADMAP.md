@@ -64,10 +64,10 @@
 ### Tasks
 
 - [x] **1.1** Admin login page (`/admin/login`) *(Zod-validated form, show/hide password, loading state, NextAuth signIn, server-side auth guard in admin layout)*
-- [ ] **1.2** Admin dashboard page (`/admin/dashboard`) — stats overview
-- [ ] **1.3** Admin management page (`/admin/settings`)
-  - [ ] 1.3.1 List all admins
-  - [ ] 1.3.2 Add new admin form (name, email, password)
+- [x] **1.2** Admin dashboard page (`/admin/dashboard`) — stats overview *(stat cards, difficulty breakdown with progress bars, recent questions list)*
+- [x] **1.3** Admin management page (`/admin/settings`) *(list + add admin)*
+  - [x] 1.3.1 List all admins *(table with name, email, date, role badge)*
+  - [x] 1.3.2 Add new admin form (name, email, password) *(dialog with Zod validation)*
   - [x] 1.3.3 API: `POST /api/auth/register` *(auth-protected, Zod validation, bcrypt hashing, duplicate check)*
 - [ ] **1.4** Question bank — List page (`/admin/questions`)
   - [ ] 1.4.1 Table with search, filter by difficulty/language
