@@ -71,20 +71,20 @@
   - [x] 1.3.3 API: `POST /api/auth/register` *(auth-protected, Zod validation, bcrypt hashing, duplicate check)*
 - [ ] **1.4** Question bank — List page (`/admin/questions`)
   - [ ] 1.4.1 Table with search, filter by difficulty/language
-  - [ ] 1.4.2 API: `GET /api/questions`
+  - [x] 1.4.2 API: `GET /api/questions` *(paginated, search by title/description, filter by difficulty/language)*
 - [ ] **1.5** Question bank — Create/Edit page (`/admin/questions/new`, `/admin/questions/[id]/edit`)
   - [ ] 1.5.1 Title, description (Markdown editor), difficulty, language selector
   - [ ] 1.5.2 Boilerplate code editor (Monaco)
   - [ ] 1.5.3 Public test cases section (add/remove input-output pairs)
   - [ ] 1.5.4 Private test cases section (add/remove input-output pairs)
-  - [ ] 1.5.5 API: `POST /api/questions`, `PUT /api/questions/[id]`
+  - [x] 1.5.5 API: `POST /api/questions`, `PUT /api/questions/[id]` *(nested test case creation, transactional update)*
 - [ ] **1.6** Question bank — Delete question
   - [ ] 1.6.1 Confirmation dialog
-  - [ ] 1.6.2 API: `DELETE /api/questions/[id]`
+  - [x] 1.6.2 API: `DELETE /api/questions/[id]` *(cascades to test cases)*
 - [ ] **1.7** Question bank — View question detail (`/admin/questions/[id]`)
-- [ ] **1.8** Unit tests for question CRUD APIs
+- [x] **1.8** Unit tests for question CRUD APIs *(21 tests: list/create/detail/update/delete with auth, validation, filters, 404s)*
 - [x] **1.9** Unit tests for admin registration API *(9 tests: auth guard, validation, duplicates, success, password security)*
-- [ ] **1.10** Zod validation schemas for all question/admin inputs
+- [x] **1.10** Zod validation schemas for all question/admin inputs *(auth: login/register, question: create/update/list-query, test case)*
 
 ### Definition of Done
 - Admin can log in securely
