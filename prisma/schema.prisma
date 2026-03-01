@@ -1,4 +1,4 @@
-// Soliton Campus Coder — Prisma Schema
+// Soliton Talent Hub — Prisma Schema
 // All models as defined in ARCHITECTURE.md §4.2
 
 generator client {

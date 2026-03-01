@@ -1,4 +1,4 @@
-# Soliton Campus Coder — Architecture Document
+# Soliton Talent Hub — Architecture Document
 
 > **Version:** 1.0  
 > **Date:** 2026-02-15  
@@ -8,7 +8,7 @@
 
 ## 1. Overview
 
-Soliton Campus Coder is an in-house coding assessment platform designed for campus recruitment. It replaces third-party platforms like HackerRank with a self-hosted solution that gives Soliton full control over the candidate evaluation pipeline.
+Soliton Talent Hub is an in-house coding assessment platform designed for talent recruitment. It replaces third-party platforms like HackerRank with a self-hosted solution that gives Soliton full control over the candidate evaluation pipeline.
 
 ### 1.1 Core Capabilities
 

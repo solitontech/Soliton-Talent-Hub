@@ -1,4 +1,4 @@
-# Soliton Campus Coder — Development Roadmap
+# Soliton Talent Hub — Development Roadmap
 
 > **Version:** 1.0  
 > **Date:** 2026-02-15  

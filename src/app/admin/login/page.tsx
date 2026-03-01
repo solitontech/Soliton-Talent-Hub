@@ -67,7 +67,7 @@ export default function AdminLoginPage() {
                         <Code2 className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h1 className="text-2xl font-bold tracking-tight">
-                        Campus Coder
+                        Talent Hub
                     </h1>
                     <p className="text-sm text-muted-foreground">
                         Soliton Admin Portal
@@ -172,7 +172,7 @@ export default function AdminLoginPage() {
 
                 {/* ── Footer ─────────────────────────────────── */}
                 <p className="text-center text-xs text-muted-foreground">
-                    Soliton Campus Coder • Admin Access Only
+                    Soliton Talent Hub • Admin Access Only
                 </p>
             </div>
         </div>

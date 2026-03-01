@@ -22,7 +22,7 @@ export default function CandidateLayout({
                         <Code2 className="h-3.5 w-3.5 text-primary-foreground" />
                     </div>
                     <span className="text-sm font-semibold text-foreground">
-                        Soliton Campus Coder
+                        Soliton Talent Hub
                     </span>
                 </div>
             </header>

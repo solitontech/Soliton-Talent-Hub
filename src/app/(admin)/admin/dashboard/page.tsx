@@ -7,7 +7,7 @@ export default function AdminDashboardPage() {
         <div>
             <h1 className="text-2xl font-bold tracking-tight">Dashboard</h1>
             <p className="mt-2 text-muted-foreground">
-                Welcome to Soliton Campus Coder admin panel.
+                Welcome to Soliton Talent Hub admin panel.
             </p>
         </div>
     );

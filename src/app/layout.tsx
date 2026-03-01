@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Soliton Campus Coder",
+  title: "Soliton Talent Hub",
   description:
-    "In-house coding assessment platform for campus recruitment at Soliton",
+    "In-house coding assessment platform for talent recruitment at Soliton",
 };
 
 export default function RootLayout({

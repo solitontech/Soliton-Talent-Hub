@@ -67,7 +67,7 @@ export function AdminSidebar() {
                 </div>
                 <div className="flex flex-col">
                     <span className="text-sm font-semibold text-sidebar-foreground">
-                        Campus Coder
+                        Talent Hub
                     </span>
                     <span className="text-xs text-sidebar-foreground/60">
                         Admin Panel
