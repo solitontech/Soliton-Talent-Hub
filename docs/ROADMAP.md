@@ -68,7 +68,7 @@
 - [ ] **1.3** Admin management page (`/admin/settings`)
   - [ ] 1.3.1 List all admins
   - [ ] 1.3.2 Add new admin form (name, email, password)
-  - [ ] 1.3.3 API: `POST /api/auth/register`
+  - [x] 1.3.3 API: `POST /api/auth/register` *(auth-protected, Zod validation, bcrypt hashing, duplicate check)*
 - [ ] **1.4** Question bank — List page (`/admin/questions`)
   - [ ] 1.4.1 Table with search, filter by difficulty/language
   - [ ] 1.4.2 API: `GET /api/questions`
@@ -83,7 +83,7 @@
   - [ ] 1.6.2 API: `DELETE /api/questions/[id]`
 - [ ] **1.7** Question bank — View question detail (`/admin/questions/[id]`)
 - [ ] **1.8** Unit tests for question CRUD APIs
-- [ ] **1.9** Unit tests for admin registration API
+- [x] **1.9** Unit tests for admin registration API *(9 tests: auth guard, validation, duplicates, success, password security)*
 - [ ] **1.10** Zod validation schemas for all question/admin inputs
 
 ### Definition of Done
